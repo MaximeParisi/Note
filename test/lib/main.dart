@@ -12,6 +12,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: new ThemeData(
+        scaffoldBackgroundColor: Color.fromARGB(250, 250,128,114),
+        cardTheme: CardTheme(color: Colors.white)),
       home: Pages(),
     );
   }
