@@ -12,7 +12,7 @@ class Pages extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(
         title: const Text("Notes"),
-        backgroundColor: Color.fromARGB(250, 250,128,114),
+        backgroundColor: Colors.blue,
         actions: [
           MoreButton(),
         ],

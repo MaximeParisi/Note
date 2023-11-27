@@ -14,7 +14,7 @@ class MoreButton extends StatelessWidget{
     return Container(
       margin: EdgeInsets.all(10.0),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Colors.blue,
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(10),
           topRight: Radius.circular(10),

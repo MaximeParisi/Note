@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: new ThemeData(
-        scaffoldBackgroundColor: Color.fromARGB(250, 250,128,114),
+        scaffoldBackgroundColor: Colors.blue,
         cardTheme: CardTheme(color: Colors.white)),
       home: Pages(),
     );
